@@ -41,6 +41,7 @@ textarea,
 select {
   width: 100%;
   margin: 10px 0 0 0;
+  min-height: 2em;
 }
 
 .inline {
@@ -48,4 +49,11 @@ select {
   /* This will remove the earlier rule which set all the input elements to width: 100% */
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: solid 1px #0a0a23;
+  color: #ffffff;
 }
