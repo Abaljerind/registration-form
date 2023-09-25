@@ -57,3 +57,14 @@ textarea {
   border: solid 1px #0a0a23;
   color: #ffffff;
 }
+
+input[type="submit"] {
+  display: block;
+  min-width: 300px;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
