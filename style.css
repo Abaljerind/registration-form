@@ -58,6 +58,10 @@ textarea {
   color: #ffffff;
 }
 
+input[type="file"] {
+  padding: 1px 2px;
+}
+
 input[type="submit"] {
   display: block;
   min-width: 300px;
